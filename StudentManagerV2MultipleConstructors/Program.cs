@@ -1,56 +1,31 @@
-using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
+using StudentManagerV2MultipleConstructors.Entities;
 
-namespace StudentManagerV2MultipleConstructors.Entities
+namespace StudentManagerV2MultipleConstructors
 {
-    public class Student
+    public class Program
+
     {
-        private string _id;      //__________~ such as space of form 
-        private string _name;
-        private int _yob;
-        private double _gpa;
-
-        public Student(string id, string name) //local variable - là biến khaibao trong function 
+        static void Main(string[] args)
         {
-            _id = id;
-            _name = name;
-            //vì sao lại đổ thiếu 2 fields ??? 
+            //int xxx;
+            //Console.WriteLine(xxx);
+            // biến khai bao kgan value --> loi NGAY LUC GO VI LAY RAC TRONG RAM 
+
+            var s3 = new Student("SE3", "David"); 
+            Console.WriteLine("se3 detail with default values inside ");
+            Console.WriteLine(s3); // toString 
+
+            // cobnh constructor co bay nhieu cach new 
+            // gia tri default neu ko dien du info - ko mang rac nhu bien local 
+
+            s3.SetYob(1987);
+            s3.SetGpa(10);
+            Console.WriteLine(" student's details after setting");
+            Console.WriteLine(s3);
+            // ham GET /SET GOI THOAI MAI , N LAN TREN TUNG OBJECT MA HAM KHONG TAO VUNG NEW MOI
+            // NO CHI CHINH SUA INFO CUA OBJ , VUNG NEW DA TUNG TAO TRUOC DO 
+            Student s4 = new Student("SE4", "Eli", 2002, 3.4);
+
         }
-        //NẾU 1 OBJECT LÚC ĐC KHỞI TẠO, LÚC ĐƯỢC NEW MÀ KO GÁN/ ĐỔ HẾT VALUE VÀO TRONGG , THÌ CÁC FIELDS KO ĐC ĐỔ SẼ MANG DEFAULT VALUE (KHÁC LOCAL VALUE LÀ MANG RÁC) 
-        // NUMBER --> DEFALUT : 0
-        // STRING --> NULL
-        // BOOL --> FALSE 
-        // --> KHONG SO BI CANH BAO SAI CODE VI DUNG RAC 
-        //  public override string ToString()
-        //{ 
-        //    return $"Student's Information/n | ID: {_id} | Name: {_name} | YourOfBirht: {_yob} | GPA: {_gpa}"; 
-        //}
-
-        public override string ToString() => $"Student's Information | ID: {_id} | Name: {_name} | YourOfBirht: {_yob} | GPA: {_gpa}";
-
-        //ham showprofile in luon
-
-        public void ShowProfile() => Console.WriteLine(ToString());
-    
-    
-        public string GetName()
-        {
-            return _name;
-        }
-        // Ham SET nhan value ben ngoai dat ten bien la gi cung duoc ~ mien co y nghia 
-     // public void SetName(string value) => _name = value;
-         public void SetName(string name) => _name = name;
-
-        public int GetYob()
-        {
-            return _yob;
-        }
-        public void SetYob(int value) => _yob = value;
-
-        public double Getgpa() => _gpa;
-        public void SetGpa(double value) => _gpa = value;
-
-    } 
+    }
 }
