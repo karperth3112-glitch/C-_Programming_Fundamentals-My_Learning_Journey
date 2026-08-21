@@ -1,4 +1,4 @@
-﻿using StudentManagerV2MultipleConstructors.Entities;
+using StudentManagerV2MultipleConstructors.Entities;
 
 namespace StudentManagerV2MultipleConstructors
 {
