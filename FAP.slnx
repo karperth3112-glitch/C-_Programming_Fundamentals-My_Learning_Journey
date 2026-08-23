@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="StudentManagerV1/StudentManagerV1.csproj" />
   <Project Path="StudentManagerV2MultipleConstructors/StudentManagerV2MultipleConstructors.csproj" Id="c44e0a82-51cf-4f18-a1af-3ffef38d0ede" />
+  <Project Path="StudentManagerV3EmptyConstructor\StudentManagerV3EmptyConstructor.csproj" />
   <Project Path="Test/Test.csproj" />
 </Solution>
