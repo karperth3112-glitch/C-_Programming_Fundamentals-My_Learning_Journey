@@ -2,5 +2,9 @@
   <Project Path="StudentManagerV1/StudentManagerV1.csproj" />
   <Project Path="StudentManagerV2MultipleConstructors/StudentManagerV2MultipleConstructors.csproj" Id="c44e0a82-51cf-4f18-a1af-3ffef38d0ede" />
   <Project Path="StudentManagerV3EmptyConstructor\StudentManagerV3EmptyConstructor.csproj" />
+  <Project Path="StudentManagerV4EmptyConstructor/StudentManagerV4EmptyConstructor.csproj" Id="2930dfe8-1a53-460d-a975-c392e5102f53" />
+  <Project Path="StudentManagerV5MultipleConstructors/StudentManagerV5MultipleConstructors.csproj" Id="7d138672-31c2-461e-87ad-705f4c9c6928" />
+  <Project Path="StudentManagerV6Property/StudentManagerV6Property.csproj" Id="147fddb0-dd72-42f0-9c40-ddd3cc9f779b" />
+  <Project Path="StudentManagerV7Encapsulation/StudentManagerV7Encapsulation.csproj" Id="f2fe66c1-61e4-4a57-a403-b5964f9493f0" />
   <Project Path="Test/Test.csproj" />
 </Solution>

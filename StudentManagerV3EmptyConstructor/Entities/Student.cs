@@ -31,6 +31,8 @@ public class Student
     {
         _gpa = gpa;
     }
+
+
     public void SetYob(int yob)
     {
         _yob = yob; 
@@ -38,7 +40,7 @@ public class Student
 
     public override string ToString()
     {
-        return $"Name: {_name}, Gpa: {_gpa}, Yob: {_yob}"; 
+        return $"Name: {_name} | Gpa: {_gpa} |  Yob: {_yob}"; 
     }
 
     public void ShowInfo()
