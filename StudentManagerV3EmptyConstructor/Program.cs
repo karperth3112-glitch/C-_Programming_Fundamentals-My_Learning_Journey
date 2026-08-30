@@ -17,14 +17,26 @@ class Program
         //obj luôn được tạo ra
         
         Student s1 = new Student(); //constructor tự sinh ra 
-        Student s2 = new Student();
-        Student s3 = new Student();
-        
-    // set . get, toString , showprofile 
+
+        // set . get, toString , showprofile 
+        Console.WriteLine(" Check s1 object BY USING EMPTY CONSTRUCTOR ");
+        Console.WriteLine(s1.ToString());  // CÁCH IN 1 
+        Console.WriteLine(s1); // gọi tostring  // CÁCH 1 -2 
+
+        s1.ShowInfo(); // CÁCH IN 2 
+
+
+        Console.WriteLine(" CHECK s1 object AFTER SETTING ");
+        s1.SetName("Jessie Tran ");
+        s1.SetYob(2000);
+        s1.SetYob(2015);
+        s1.ShowInfo();
         Console.WriteLine(s1.ToString());
-        Console.WriteLine(s2);
-        Console.WriteLine(s3);
-        
+        Console.WriteLine(s1);
+
+
+
+
 
 
     }
