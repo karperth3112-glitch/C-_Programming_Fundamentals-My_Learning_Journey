@@ -4,12 +4,5 @@
   <Project Path="StudentManagerV11PropertyAutoBackingField/StudentManagerV11PropertyAutoBackingField.csproj" Id="84dc76fe-1e21-47d9-9b46-29977b765c77" />
   <Project Path="StudentManagerV2MultipleConstructors/StudentManagerV2MultipleConstructors.csproj" Id="c44e0a82-51cf-4f18-a1af-3ffef38d0ede" />
   <Project Path="StudentManagerV3EmptyConstructor\StudentManagerV3EmptyConstructor.csproj" />
-  <Project Path="StudentManagerV4EmptyConstructor/StudentManagerV4EmptyConstructor.csproj" Id="2930dfe8-1a53-460d-a975-c392e5102f53" />
-  <Project Path="StudentManagerV5MultipleConstructors/StudentManagerV5MultipleConstructors.csproj" Id="7d138672-31c2-461e-87ad-705f4c9c6928" />
-  <Project Path="StudentManagerV6Property/StudentManagerV6Property.csproj" Id="147fddb0-dd72-42f0-9c40-ddd3cc9f779b" />
-  <Project Path="StudentManagerV7Encapsulation/StudentManagerV7Encapsulation.csproj" Id="f2fe66c1-61e4-4a57-a403-b5964f9493f0" />
-  <Project Path="StudentManagerV8PropertyHybrid/StudentManagerV8PropertyHybrid.csproj" Id="71b380ab-73c1-439b-8073-5c28337e6c4b" />
-  <Project Path="StudentMangerV9Property/StudentMangerV9Property.csproj" Id="d840ab80-6c90-43c0-8335-42e578aa3451" />
-  <Project Path="StudentMangerVFinalFantasy/StudentMangerVFinalFantasy.csproj" Id="d5f7eefa-ae2f-441c-bc73-d9032f3e8e86" />
   <Project Path="Test/Test.csproj" />
 </Solution>

@@ -5,7 +5,6 @@ namespace StudentManagerV7Encapsulation
     {
         static void Main(string[] args)
         {
-            PlayWithGetSet(); 
             PlayWithGetSetWithouEncapsulation(); 
         }
 
@@ -21,6 +20,12 @@ namespace StudentManagerV7Encapsulation
             Console.WriteLine("GET: Yob= " + s1.Yob);
             Console.WriteLine("GET: Yob= " + s1.Yob);
         }
+
+
+
+
+
+
 
 
 
